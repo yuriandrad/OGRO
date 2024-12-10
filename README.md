@@ -1,5 +1,4 @@
-# OGRO
-Denial of Service Tool
+## OGRO - Denial of Service Tool
 
 <p align="center">
     <img src="ogro1.png" alt="OGRO em ação" width="500">
@@ -31,4 +30,4 @@ OGRO é uma poderosa ferramenta desenvolvida em C para testes de estresse e nega
 
 ## Aviso Legal
 OGRO foi projetada para fins educacionais e de pesquisa em segurança da informação. Qualquer uso indevido que viole leis ou regulamentações locais é de responsabilidade exclusiva do usuário.
-<p align="center"> Feito com ❤️ para a comunidade de Segurança da Informação. </p> ```
+<p align="center"> Feito com ❤️ para a comunidade de Segurança da Informação. </p> 
