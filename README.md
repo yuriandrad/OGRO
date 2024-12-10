@@ -20,7 +20,7 @@ OGRO é uma ferramenta desenvolvida em C para testes de estresse e negação de 
 
 1. Clone o repositório:  
    ```bash
-   git clone https://github.com/yuriandrad/ogro.git
+   git clone https://github.com/yuriandrad/OGRO
    cd ogro
 2. Compile o código:  
    ```bash
