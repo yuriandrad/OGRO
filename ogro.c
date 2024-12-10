@@ -1,4 +1,4 @@
-// Código completo incluindo as partes necessárias
+// Bibliotecas
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -6,7 +6,7 @@
 #include <arpa/inet.h>
 #include <unistd.h>
 
-// Definir códigos de cor
+// Definindo códigos de cor
 #define RESET "\033[0m"        // Resetar cor padrão
 #define RED "\033[31m"         // Vermelho
 #define GREEN "\033[32m"       // Verde
@@ -14,7 +14,7 @@
 #define BLUE "\033[34m"        // Azul
 #define CYAN "\033[36m"        // Ciano
 
-// Função para imprimir a Arte 1
+// Função para imprimir a arte 1
 void imprimir_arte_1() {
     printf(GREEN"    .-.        \\/   ()_()     .-.     \n" RESET);
     printf(GREEN"  c(O_O)c     (OO)  (O o)   c(O_O)c   \n" RESET);
@@ -28,7 +28,7 @@ void imprimir_arte_1() {
     printf("\n");
 }
 
-// Função para imprimir a Arte 2
+// Função para imprimir a arte 2
 void imprimir_arte_2() {
     printf(CYAN"                                      .-.\n" RESET);
     printf(CYAN"            ,                     .-' ,c'.\n" RESET);
@@ -74,8 +74,8 @@ int main(int argc, char *argv[]) {
     imprimir_ascii_arts();
     
     if (argc < 5) {
-        // Exibir o uso com cores: IP em vermelho, porta em azul, tamanho do pacote em amarelo, protocolo em verde
-        printf(RED "Uso: %s " RESET "<" RED "IP do alvo" RESET "> <" BLUE "porta" RESET "> <" YELLOW "tamanho do pacote" RESET "> <" GREEN "tcp/udp" RESET ">\n", argv[0]);
+        // Exibir o uso com cores
+        printf("Uso: %s " "<" RED "IP do alvo" RESET "> <" BLUE "porta" RESET "> <" YELLOW "tamanho do pacote" RESET "> <" GREEN "tcp/udp" RESET ">\n", argv[0]);
         exit(1);
     }
     
@@ -95,7 +95,7 @@ int main(int argc, char *argv[]) {
     }
 
     pacote = malloc(tam_pacote);
-    if (pacote == NULL) { // Verificar se a alocação foi bem-sucedida
+    if (pacote == NULL) { // Verifica se a alocação foi bem-sucedida
         perror(RED "Falha ao alocar memória" RESET);
         exit(1);
     }
