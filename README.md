@@ -6,7 +6,9 @@
 
 ## Sobre a Ferramenta
 
-OGRO é uma poderosa ferramenta desenvolvida em C para testes de estresse e negação de serviço (DoS). Sua funcionalidade principal é simular ataques de negação de serviço para avaliação de robustez e resiliência em ambientes controlados.  
+OGRO é uma ferramenta desenvolvida em C para testes de estresse e negação de serviço (DoS). Sua funcionalidade principal é simular ataques de negação de serviço para avaliação de robustez e resiliência em ambientes controlados.  
+Ideal para cenários de testes em laboratório ou aprendizado, mas com impacto limitado em redes reais protegidas por firewalls ou sistemas de mitigação.
+
 **Nota:** Utilize a ferramenta de forma ética e somente em sistemas onde você possui autorização explícita.
 
 ## Funcionalidades
