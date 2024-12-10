@@ -27,7 +27,7 @@ OGRO é uma ferramenta desenvolvida em C para testes de estresse e negação de 
    gcc ogro.c -o ogro
 3. Execute com os parâmetros desejados: 
    ```bash
-   ./ogro <alvo> <porta> <protocolo> <tamanho>
+   ./ogro <alvo> <porta> <tamanho> <protocolo>
 
 ## Aviso Legal
 OGRO foi projetada para fins educacionais e de pesquisa em segurança da informação. Qualquer uso indevido que viole leis ou regulamentações locais é de responsabilidade exclusiva do usuário.
