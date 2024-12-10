@@ -1,5 +1,5 @@
 # OGRO
-Denial of Service Tool (BASIC)
+Denial of Service Tool
 
 <p align="center">
     <img src="ogro1.png" alt="OGRO em ação" width="500">
@@ -27,10 +27,8 @@ OGRO é uma poderosa ferramenta desenvolvida em C para testes de estresse e nega
    gcc ogro.c -o ogro
 3. Execute com os parâmetros desejados: 
    ```bash
-   ./ogro <alvo> <porta> <parâmetros>
+   ./ogro <alvo> <porta> <protocolo> <tamanho>
 
-Demonstração
-<p align="center"> <video src="ogro2.mp4" controls width="700"></video> </p>
-Aviso Legal
+## Aviso Legal
 OGRO foi projetada para fins educacionais e de pesquisa em segurança da informação. Qualquer uso indevido que viole leis ou regulamentações locais é de responsabilidade exclusiva do usuário.
 <p align="center"> Feito com ❤️ para a comunidade de Segurança da Informação. </p> ```
