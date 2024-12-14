@@ -24,7 +24,6 @@ void imprimir_arte_1() {
     printf(GREEN"'. `---' .`'.   \\) \\ )|\\\\ '. `---' .` \n" RESET);
     printf(GREEN"  `-...-'    `-.(_.'(/  \\)  `-...-'   \n" RESET);
     printf(RED  "   Denial of Service Attack Tool\n" RESET);
-    printf(BLUE "          by: Yuri Andrade\n"RESET);
     printf("\n");
 }
 
